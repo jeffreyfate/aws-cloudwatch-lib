@@ -1,7 +1,7 @@
 {
-  "name": "node-project-blueprint",
+  "name": "aws-cloudwatch-lib",
   "version": "0.0.0",
-  "description": "node-project-blueprint",
+  "description": "aws-cloudwatch-lib",
   "main": "src/index.js",
   "scripts": {
     "test": "tape ./test/**/**/*-test.js | tap-spec",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeffreyfate/node-project-blueprint.git"
+    "url": "git+https://github.com/jeffreyfate/aws-cloudwatch-lib.git"
   },
   "keywords": [
     "TODO"
@@ -21,9 +21,9 @@
   "author": "Jeffrey Fate <fatejd@gmail.com> (https://www.jeffreyfate.com)",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/jeffreyfate/node-project-blueprint/issues"
+    "url": "https://github.com/jeffreyfate/aws-cloudwatch-lib/issues"
   },
-  "homepage": "https://github.com/jeffreyfate/node-project-blueprint#readme",
+  "homepage": "https://github.com/jeffreyfate/aws-cloudwatch-lib#readme",
   "devDependencies": {
     "@semantic-release/git": "^7.0.16",
     "@stryker-mutator/core": "^2.1.0",

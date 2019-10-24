@@ -1,0 +1,49 @@
+{
+  "name": "node-project-blueprint",
+  "version": "0.0.0",
+  "description": "node-project-blueprint",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "tape ./test/**/**/*-test.js | tap-spec",
+    "mutate": "npx stryker run",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffreyfate/node-project-blueprint.git"
+  },
+  "keywords": [
+    "TODO"
+  ],
+  "engines": {
+    "node": ">=10.16.3"
+  },
+  "author": "Jeffrey Fate <fatejd@gmail.com> (https://www.jeffreyfate.com)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jeffreyfate/node-project-blueprint/issues"
+  },
+  "homepage": "https://github.com/jeffreyfate/node-project-blueprint#readme",
+  "devDependencies": {
+    "@semantic-release/git": "^7.0.16",
+    "@stryker-mutator/core": "^2.1.0",
+    "@stryker-mutator/html-reporter": "^2.1.0",
+    "@stryker-mutator/javascript-mutator": "^2.1.0",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "semantic-release": "^15.13.24",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "aws-sdk": "^2.555.0"
+  }
+}

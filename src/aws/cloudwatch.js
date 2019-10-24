@@ -10,3 +10,14 @@ exports.disableAlarmActions = async function(params) {
   const cloudwatch = new CloudWatch({apiVersion: '2015-12-01'})
   return await cloudwatch.disableAlarmActions(params).promise()
 }
+
+/**
+ * {
+ *   AlarmNames: [
+ *   ]
+ * }
+ */
+exports.enableAlarmActions = async function(params) {
+  const cloudwatch = new CloudWatch({apiVersion: '2015-12-01'})
+  return await cloudwatch.enableAlarmActions(params).promise()
+}

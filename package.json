@@ -44,6 +44,6 @@
     }
   },
   "dependencies": {
-    "aws-sdk": "^2.555.0"
+    "aws-sdk": "^2.869.0"
   }
 }
